@@ -51,7 +51,7 @@
       <div class="container">
         <div class="row">
           <div class="span2"></div>
-          <div class="span8">
+          <div class="span8 video-demo">
             <iframe src="http://ascii.io/a/3391/raw" frameborder="0"></iframe>
           </div>
           <div class="span2"></div>
@@ -269,6 +269,15 @@
 
     ga('create', 'UA-4114546-35', 'nodegh.io');
     ga('send', 'pageview');
+    </script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      $('.video-demo').fitVids();
+    });
     </script>
 
   </body>
